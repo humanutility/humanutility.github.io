@@ -37,32 +37,49 @@
     <meta property="og:image" content="https://d1hb0md5k97kb0.cloudfront.net/assets/new/family-crush-9b389075ff37446b12bbc370b9963b7d2dc79da6cf51fcce0de7dc8f1c18fb66.jpg" />
 
     <style>
-    .article-questions {
-      font-size: 21px;
-      line-height: 1.58;
-      color: rgba(0,0,0,.8);
-    }
+      .person-helped {
+        float: left;
+        padding-top: 15px;
+        margin-left: -165px;
+        margin-right: 65px;
+        margin-bottom: 20px;
+        max-width: 350px;
+      }
 
-    .floated {
-      float: left;
-      width: 150px;
-      background-color: red;
-    }
+      @media screen and (max-width: 692px) {
+        .person-helped {
+          float: none;
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
 
-    .page-content .article-questions {
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
-      position: relative;
-    }
+      .article-questions {
+        font-size: 21px;
+        line-height: 1.58;
+        color: rgba(0,0,0,.8);
+      }
 
-    hr {
-    background: url(https://amydaniewicz.com/wp-content/themes/premium/watson/images/hr.svg) center no-repeat;
-    border: none;
-    height: 5px;
-    clear: both;
-    margin: 36px 0;
-}
+      .floated {
+        float: left;
+        width: 150px;
+        background-color: red;
+      }
+
+      .page-content .article-questions {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+      }
+
+      hr {
+        background: url(https://amydaniewicz.com/wp-content/themes/premium/watson/images/hr.svg) center no-repeat;
+        border: none;
+        height: 5px;
+        clear: both;
+        margin: 36px 0;
+      }
     </style>
     <!-- Facebook Conversion Code for Page visits! -->
     <script>
@@ -96,7 +113,7 @@
         <ul>
           <li class="nav-item"><a href="/#how" class="">How to Help</a></li>
           <li class="nav-item"><a href="https://www.detroitwaterproject.org/detroit/people/new">Get Assistance</a></li>
-          <li class="nav-item nav-item--no-collapse"><a href="/#donate" class="button button-small ">Donate</a></li>
+          <li class="nav-item nav-item--no-collapse"><a href="/#donate" class="button button-small">Donate</a></li>
         </ul>
       </nav>
     </header><!-- /end .global-header -->
@@ -106,20 +123,23 @@
         <section class="article">
           <div class="article-questions">
             <h1>{{ page.title }}</h1>
-            <figure style="float: left; padding-top: 15px; margin-left: -165px; margin-right: 65px; margin-bottom: 20px; max-width: 350px;">
+            <figure class="person-helped">
               <img src="https://cdn-images-1.medium.com/max/1200/1*1iPx_3-Xnvy40DbW9tjXgg.jpeg">
               <figcaption style="text-align: center;">{{ page.caption }}</figcaption>
             </figure>
             {{ content }}
-
             <hr />
-
+              <div style="text-align: center;">
+                <a href="https://www.detroitwaterproject.org/#donate" class="button button-small" style="font-size: 18pt;">
+                  Contribute
+                </a>
+              </div>
+            <hr />
             <p>
               <strong><a href="http://detroitwaterproject.org/?ref=github">The Human Utility</a></strong>, a not-for-profit organization founded in 2014, is dedicated to helping low-income families and seniors in the United States pay their water bills to restore or preserve their service. Through our website, we match donors to families for support. With donations from $5 to $5000 we have helped over 950 families get their water turned back on. <strong><a href="http://detroitwaterproject.org/?ref=github">Give today</a></strong>. Every drop in the bucket makes a difference!
             </p>
           </div>
         </section>
-
       </main><!-- end .site-content -->
     </div><!-- end .site-wrapper -->
 
