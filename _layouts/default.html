@@ -29,8 +29,8 @@
     <meta name="twitter:domain" content="humanutility.org">
 
     <meta property="og:title" content="The Human Utility - Help w/a water bill" />
-    <meta property="fb:app_id" content="262944590572795" />
     <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="1774838542755127" />
     <meta property="og:description" content="{{ page.description }}" />
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:site_name" content="The Human Utility" />
@@ -87,21 +87,22 @@
     </style>
     <!-- Facebook Conversion Code for Page visits! -->
     <script>
-      (function() {
-        var _fbq = window._fbq || (window._fbq = []);
-        if (!_fbq.loaded) {
-          var fbds = document.createElement('script');
-          fbds.async = true;
-          fbds.src = '//connect.facebook.net/en_US/fbds.js';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(fbds, s);
-          _fbq.loaded = true;
-        }
-      })();
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1774838542755127',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
 
-      window._fbq = window._fbq || [];
-      window._fbq.push(['track', '6023524387897', {'value':'0.00','currency':'USD'}]);
-    </script>
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
     <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6023524387897&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
   </head>
 
@@ -153,10 +154,10 @@
             <hr />
             <p>
               <strong><a href="http://detroitwaterproject.org/?ref=github">The Human Utility</a></strong>, a not-for-profit organization founded in 2014, is dedicated to helping low-income families and seniors in the United States pay their water bills to restore or preserve their service. Through our website, we match donors to families for support. With donations from $5 to $5000 we have helped over 950 families get their water turned back on. <strong><a href="https://www.detroitwaterproject.org/#donate">Give today</a></strong>. Every drop in the bucket makes a difference!
-            </p><br /><br />
+            </p><br />
             <div class="col-md-4">
               <div class="col-md-1" style="margin-bottom: 5px;">
-                <div class="fb-share-button" data-href="http://humanutility.github.io/loria-detroit" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhumanutility.github.io%2Floria-detroit&amp;src=sdkpreparse">Share</a></div>
+                <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div>
               </div>
               <div class="col-md-1">
                 <div><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-text="Read the story of the first person The @HumanUtility helped w/ a water bill." data-url="http://humanutility.github.io/loria-detroit/" data-via="humanutility" data-hashtags="detroit" data-related="humanutility" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
