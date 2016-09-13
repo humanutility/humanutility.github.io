@@ -16,3 +16,5 @@ Her water bill quickly ballooned as she searched for another job. A combination 
 She'd never been shut off before, yet, she knew if the bill grew much larger, shut off was a very real possibility. The notion of living without the basics--especially running water--was _unthinkable_.
 
 That's when Loria sought outside help. Searching the Internet led her to The Human Utility. Donation by donation, we quickly paid Loria's outstanding water bill to the Detroit Water & Sewerage Department.
+
+With her water service back on, Loria is working hard to get back on her feet doing data entry work.
