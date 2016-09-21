@@ -15,7 +15,7 @@ Larry's rental agreement for the house he is renting-to-own was supposed to incl
 
 A week before shutoff, Larry was mailed an outstanding water bill. A day after the letter arrived, Larry went to the Detroit Water and Sewerage office to make arrangements on the bill. But, he was told the entire balance of $246 was due or his service would be shut-off.
 
-Larry, a 62-year-old retiree with cancer, didn't have the money to pay the balance.
+Larry, a 62-year-old retiree from GM's accounting and payroll department who also has cancer, didn't have the money to pay the balance.
 
 As a result, he was forced to go nearly two months without water service. So Larry, who lives alone with his dog Cokie, had to suffer the personal indignities of foregoing many household conveniences and chores most take for granted.
 
