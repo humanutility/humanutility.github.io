@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2 Months Without Water as a Cancer Patient—Larry's Story
-permalink: /larry-detroit
+permalink: /larry-detroit/
 caption: Larry in his home in Detroit. Photo by Arthur Bridgeforth, Jr. 2016.
 description: Larry, a GM retiree in Detroit, went two months without running water before he found The Human Utility
 profile_img: https://www.dropbox.com/s/kdd4t7c2pzmly5k/larry-min-detroit-min.jpg?dl=1
