@@ -40,7 +40,7 @@ image: https://www.dropbox.com/s/k2i3ivenw1uobxi/loria.jpeg?dl=1
 ---
 ```
 
-These metadata keys (`image`, `title`) are important, because they are used by the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) plugin to create cards for Twitter and Facebook.
+These metadata keys (`image`, `title`, etc.) are important, because they are used by the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) plugin to create cards for Twitter and Facebook.
 
 ## Plugins used
 
