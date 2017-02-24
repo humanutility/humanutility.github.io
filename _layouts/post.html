@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article>
+  <header>
+    <a class="picture" href="{{ page.url }}">
+      <img src="{{ page.profile_img }}">
+    </a>
+    <h1><a href="{{ page.url }}">{{ page.title }}<br></a></h1>
+    <p>
+      <span>{{ page.date | date: "%B %e, %Y" }}</span>
+    </p>
+  </header>
+
+  <div class="content">
+    <p>{{ content }}<p>
+  </div>
+
+</article>
