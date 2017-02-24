@@ -2,6 +2,11 @@
 
 This repository contains the blog for the Human Utility project! It runs on [GitHub Pages](https://pages.github.com/) using [Jekyll](https://jekyllrb.com/).
 
+## Getting the site
+
+1. Make sure that [you have Git installed and configured](https://help.github.com/articles/set-up-git/).
+2. [Clone this repository](https://help.github.com/articles/cloning-a-repository/) to your computer.
+
 ## Starting the site
 
 If you're using a Mac or Linux, go to the terminal and run:
@@ -42,7 +47,13 @@ image: https://www.dropbox.com/s/k2i3ivenw1uobxi/loria.jpeg?dl=1
 
 These metadata keys (`image`, `title`, etc.) are important, because they are used by the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) plugin to create cards for Twitter and Facebook.
 
-## Plugins used
+## Publishing posts
+
+Any post merged into `gh-pages` will automatically go live on the internet!
+
+## Technical details
+
+### Plugins used
 
 The following plugins are used to help make the site:
 
@@ -51,7 +62,7 @@ The following plugins are used to help make the site:
 - [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
 - [jemoji](https://github.com/jekyll/jemoji)
 
-## TODO
+### TODO
 
 * Fix header and footer so that they match the rest of the website
 * A lot of the SCSS styles were just stolen from Stripe. The files in the *_sass/* folder should be reviewed to make sure they're actually being used.
