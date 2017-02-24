@@ -16,10 +16,10 @@ layout: default
     </header>
 
     <div class="content">
-      <p>{{ post.excerpt | markdownify | strip_html | strip_newlines | escape_once }}<p>
+      <p>{{ post.excerpt | markdownify | strip_html | strip_newlines | escape_once }}</p>
     </div>
 
-    <p>
+    <p class="read-more">
       {% if post.excerpt != post.content %}
         <strong><a href="{{ post.url }}">Read more →</a></strong>
       {% endif %}
