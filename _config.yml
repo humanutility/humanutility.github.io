@@ -14,14 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The HUMAN Utility
+description: The Human Utilty helps low income and elderly families with their water bills.
 email: info@humanutility.org
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://humanutility.github.io/" # the base hostname & protocol for your site
-twitter_username: humanutility
+twitter:
+  username: humanutility
 github_username:  humanutility
 
 # Build settings
@@ -35,3 +33,9 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
+
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
