@@ -134,11 +134,14 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll (= 3.2.1)
+  jekyll-feed
+  jekyll-seo-tag
+  jekyll-sitemap
+  jemoji
   minima
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.2.3p173
 
 BUNDLED WITH
-   1.12.5
+   1.14.2

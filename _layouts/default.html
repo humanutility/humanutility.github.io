@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="blog">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,78 +17,14 @@
     <link href='//fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
     <!-- CSS -->
-    <link rel="stylesheet" media="screen" href="https://d1hb0md5k97kb0.cloudfront.net/assets/new-16d516d87d1ab9f83937085f785db83657998259b85478db0b31a6ca314cc42d.css" data-turbolinks-track="true" />
+    <!--<link rel="stylesheet" media="screen" href="https://d1hb0md5k97kb0.cloudfront.net/assets/new-16d516d87d1ab9f83937085f785db83657998259b85478db0b31a6ca314cc42d.css" data-turbolinks-track="true" /> -->
+    <link rel="stylesheet" media="screen" href="/css/main.css" data-turbolinks-track="true" />
 
     <!-- Page title + metadata -->
     <title>{{ page.title }} - The Human Utility</title>
-    <meta name="description" content="The Human Utilty helps low income and elderly families with their water bills.">
-    <meta name="author" content="">
-    <meta name="twitter:site" content="@humanutility" />
-    <meta property="twitter:account_id" content="3471901" />
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:description" content="{{ page.description }}">
-    <meta name="twitter:image" content="{{ page.profile_img }}" />
-    <meta name="twitter:image:alt" content="Photo of Loria. A woman in Detroit The Human Utility helped with her water bill." />
-    <meta name="twitter:domain" content="humanutility.org">
 
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:type" content="website" />
-    <meta property="fb:app_id" content="1774838542755127" />
-    <meta property="og:description" content="{{ page.description }}" />
-    <meta property="og:url" content="http://humanutility.github.io{{ page.url }}" />
-    <meta property="og:site_name" content="The Human Utility" />
-    <meta property="og:image" content="{{ page.profile_img }}" />
+    {% seo %}
 
-    <style>
-      .credits, .credits:visited {
-        color: white;
-      }
-
-      .person-helped {
-        float: left;
-        padding-top: 15px;
-        margin-left: -165px;
-        margin-right: 65px;
-        margin-bottom: 20px;
-        max-width: 350px;
-      }
-
-      @media screen and (max-width: 692px) {
-        .person-helped {
-          float: none;
-          margin-left: 0;
-          margin-right: 0;
-        }
-      }
-
-      .article-questions {
-        font-size: 21px;
-        line-height: 1.58;
-        color: rgba(0,0,0,.8);
-      }
-
-      .floated {
-        float: left;
-        width: 150px;
-        background-color: red;
-      }
-
-      .page-content .article-questions {
-        max-width: 700px;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-      }
-
-      hr {
-        background: url(https://amydaniewicz.com/wp-content/themes/premium/watson/images/hr.svg) center no-repeat;
-        border: none;
-        height: 5px;
-        clear: both;
-        margin: 36px 0;
-      }
-    </style>
     <!-- Facebook Conversion Code for Page visits! -->
     <script>
   window.fbAsyncInit = function() {
@@ -110,7 +46,7 @@
     <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6023524387897&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
   </head>
 
-  <body class="page-content">
+  <body class="page-content globalContent">
     <!-- THE GOOGLE. -->
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -140,35 +76,20 @@
     </header><!-- /end .global-header -->
 
     <div class="site-wrapper">
-      <main class="site-content" role="main">
-        <section class="article">
-          <div class="article-questions">
-            <h1>{{ page.title }}</h1>
-            <figure class="person-helped">
-              <img src="{{ page.profile_img }}">
-              <figcaption style="text-align: center;">{{ page.caption }}</figcaption>
-            </figure>
-            {{ content }}
-            <hr />
-              <div style="text-align: center;">
-                <a href="https://www.detroitwaterproject.org/#donate" class="button button-small" style="font-size: 18pt;">
-                  Donate now &amp; help more people
-                </a>
-              </div>
-            <hr />
-            <p>
-              <strong><a href="http://detroitwaterproject.org/?ref=github">The Human Utility</a></strong>, a not-for-profit organization founded in 2014, is dedicated to helping low-income families and seniors in the United States pay their water bills to restore or preserve their service. Through our website, we match donors to families for support. With donations from $5 to $5000 we have helped over 950 families get their water turned back on. <strong><a href="https://www.detroitwaterproject.org/#donate">Give today</a></strong>. Every drop in the bucket makes a difference!
-            </p><br />
-            <div class="col-md-4">
-              <div class="col-md-1" style="margin-bottom: 5px;">
-                <div class="fb-like" data-href="http://humanutility.github.io{{ page.url }}" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
-              </div>
-              <div class="col-md-1">
-                <div><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-text="Read the story of the first person The @HumanUtility helped w/ a water bill." data-url="http://humanutility.github.io/loria-detroit/" data-via="humanutility" data-hashtags="detroit" data-related="humanutility" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-              </div>
-            </div>
+      <div class="main-content" role="main">
+
+        {{ content }}
+
+        <hr />
+          <div style="text-align: center;">
+            <a href="https://www.detroitwaterproject.org/#donate" class="button button-small" style="font-size: 18pt;">
+              Donate now &amp; help more people
+            </a>
           </div>
-        </section>
+        <hr />
+        <p>
+          <strong><a href="http://detroitwaterproject.org/?ref=github">The Human Utility</a></strong>, a not-for-profit organization founded in 2014, is dedicated to helping low-income families and seniors in the United States pay their water bills to restore or preserve their service. Through our website, we match donors to families for support. With donations from $5 to $5000 we have helped over 950 families get their water turned back on. <strong><a href="https://www.detroitwaterproject.org/#donate">Give today</a></strong>. Every drop in the bucket makes a difference!
+        </p><br />
       </main><!-- end .site-content -->
     </div><!-- end .site-wrapper -->
 
