@@ -26,17 +26,22 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-// Minima also includes a mixin for defining media queries.
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-
 // Import partials from the `minima` theme.
-@import "default";
+@import "minima";
 
+@import "default";
 @import "shared-site";
 @import "blog";
+
+// Stripe overriden stuff
+.globalFooter {
+  p {
+    font-size: 1em;
+    padding: 0 20px;
+  }
+}
+
+p.read-more {
+  float: right;
+  padding-right: 20px
+}
