@@ -946,6 +946,10 @@ code, pre {
     &.primary .rootLink {
       font-weight: 500;
     }
+    a.button {
+      color: white;
+      background-color: #439bbc;
+    }
   }
   .colorize {
     color: #6772e5;
@@ -954,9 +958,9 @@ code, pre {
       color: #32325d;
     }
   }
-  .hasDropdown {
-    cursor: default;
-  }
+  // .hasDropdown {
+  //   cursor: default;
+  // }
   .item-home {
     h1 {
       line-height: 50px;
@@ -1799,7 +1803,7 @@ a.globalFooterCard.card-radar, div.globalFooterCard.card-radar {
     flex-wrap: wrap;
   }
   a {
-    text-decoration: none;
+    text-decoration: underline;;
     color: inherit;
     transition: color .1s;
     &:hover {
