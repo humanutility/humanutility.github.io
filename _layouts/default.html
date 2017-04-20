@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en" id="blog">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,14 +17,78 @@
     <link href='//fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
     <!-- CSS -->
-    <!--<link rel="stylesheet" media="screen" href="https://d1hb0md5k97kb0.cloudfront.net/assets/new-16d516d87d1ab9f83937085f785db83657998259b85478db0b31a6ca314cc42d.css" data-turbolinks-track="true" /> -->
-    <link rel="stylesheet" media="screen" href="/css/main.css" data-turbolinks-track="true" />
+    <link rel="stylesheet" media="screen" href="https://d1hb0md5k97kb0.cloudfront.net/assets/new-16d516d87d1ab9f83937085f785db83657998259b85478db0b31a6ca314cc42d.css" data-turbolinks-track="true" />
 
     <!-- Page title + metadata -->
     <title>{{ page.title }} - The Human Utility</title>
+    <meta name="description" content="The Human Utilty helps low income and elderly families with their water bills.">
+    <meta name="author" content="">
+    <meta name="twitter:site" content="@humanutility" />
+    <meta property="twitter:account_id" content="3471901" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:image" content="{{ page.profile_img }}" />
+    <meta name="twitter:image:alt" content="Photo of Loria. A woman in Detroit The Human Utility helped with her water bill." />
+    <meta name="twitter:domain" content="humanutility.org">
 
-    {% seo %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="1774838542755127" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:url" content="http://humanutility.github.io{{ page.url }}" />
+    <meta property="og:site_name" content="The Human Utility" />
+    <meta property="og:image" content="{{ page.profile_img }}" />
 
+    <style>
+      .credits, .credits:visited {
+        color: white;
+      }
+
+      .person-helped {
+        float: left;
+        padding-top: 15px;
+        margin-left: -165px;
+        margin-right: 65px;
+        margin-bottom: 20px;
+        max-width: 350px;
+      }
+
+      @media screen and (max-width: 692px) {
+        .person-helped {
+          float: none;
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+
+      .article-questions {
+        font-size: 21px;
+        line-height: 1.58;
+        color: rgba(0,0,0,.8);
+      }
+
+      .floated {
+        float: left;
+        width: 150px;
+        background-color: red;
+      }
+
+      .page-content .article-questions {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+      }
+
+      hr {
+        background: url(https://amydaniewicz.com/wp-content/themes/premium/watson/images/hr.svg) center no-repeat;
+        border: none;
+        height: 5px;
+        clear: both;
+        margin: 36px 0;
+      }
+    </style>
     <!-- Facebook Conversion Code for Page visits! -->
     <script>
   window.fbAsyncInit = function() {
@@ -103,56 +167,41 @@
               <div class="col-md-1">
                 <div><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-text="Read the story of the first person The @HumanUtility helped w/ a water bill." data-url="http://humanutility.github.io/loria-detroit/" data-via="humanutility" data-hashtags="detroit" data-related="humanutility" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
               </div>
-
-            </header>
-
-        {{ content }}
-
+            </div>
+          </div>
+        </section>
       </main><!-- end .site-content -->
     </div><!-- end .site-wrapper -->
 
-    <footer class="globalFooter">
-      <article class="globalFooterNav">
-      <div class="container-lg">
-
-        <ul class="metaNav">
+    <footer class="global-footer site-section">
+      <div class="width-one-whole">
+        <div class="logo"><p>The <span class="text-color-primary">Human</span> Utility</p></div>
+      </div>
+      <div class="width-one-third">
+        <ul class="global-footer-links">
+          <li class="global-footer-link--header">Take Action</li>
+          <li><a href="https://www.detroitwaterproject.org/detroit/people/new">Get help paying your water bill</a></li>
+          <li><a href="https://www.detroitwaterproject.org/#donate">Help a family pay a water bill</a></li>
+          <li class="global-footer-link--header">Raise Your Voice</li>
+          <li><a href="http://twitter.com/search?q=http%3A%2F%2Fhumanutility.org">Share #TheHumanUtility on Twitter</a></li>
+          <li><a href="http://facebook.com/thehumanutility">Like The Human Utility on Facebook</a></li>
         </ul>
-
-        <div class="siteNav">
-          <div class="column">
-            <h4>Take Action</h4>
-              <ul>
-                <li><a href="https://www.detroitwaterproject.org/detroit/people/new">Get help paying your water bill</a></li>
-                <li><a href="https://www.detroitwaterproject.org/#donate">Help a family pay a water bill</a></li>
-              </ul>
-          </div>
-          <div class="column">
-            <h4>Raise Your Voice</h4>
-            <ul>
-              <li><a href="http://twitter.com/search?q=http%3A%2F%2Fhumanutility.org">Share #TheHumanUtility on Twitter</a></li>
-              <li><a href="http://facebook.com/thehumanutility">Like The Human Utility on Facebook</a></li>
-            </ul>
-          </div>
-          <div class="column">
-            <h4>Learn more</h4>
-            <ul>
-              <li><a href="https://www.detroitwaterproject.org/detroit/faqs">Read the FAQ</a></li>
-              <li><a href="https://www.detroitwaterproject.org/detroit/press">Media and press information</a></li>
-              <li><a href="https://www.detroitwaterproject.org/terms">Terms</a></li>
-            </ul>
-          </div>
-        </div>
-
       </div>
-
-      <div>
-        <p>Copyright &copy; 2014-2016. The Conscientious Utility Project, Inc.<br />All rights reserved. Fiscally sponsored by the Social Good Fund, an IRS 501(c)(3) nonprofit. (EIN #46-1323531)</p>
-        <p>We are generously supported by <a class="credits" target="_blank" href="http://ycombinator.com">Y Combinator</a>, <a class="credits" target="_blank" href="http://teespring.com">TeeSpring</a>, <a class="credits" target="_blank" href="http://twitter.com/paultoo">Paul Buchheit</a>, <a class="credits" target="_blank" href="http://www.continuations.com">Albert Wenger</a>, and the <a class="credits" target="_blank" href="http://shuttleworthfoundation.org">Shuttleworth Foundation</a>.</p>
+      <div class="width-one-third">
+        <ul class="global-footer-links">
+          <li class="global-footer-link--header">Learn more</li>
+          <li><a href="https://www.detroitwaterproject.org/detroit/faqs">Read the FAQ</a></li>
+          <li><a href="https://www.detroitwaterproject.org/detroit/press">Media and press information</a></li>
+          <li><a href="https://www.detroitwaterproject.org/terms">Terms</a></li>
+        </ul>
       </div>
-    </article>
-
-
-    </footer>
+      <div class="width-one-third end-row" style="font-size: 1.2em;">
+        <p class="text-smaller">Copyright &copy; 2014-2016. The Conscientious Utility Project, Inc.<br />All rights reserved. Fiscally sponsored by the Social Good Fund, an IRS 501(c)(3) nonprofit. (EIN #46-1323531)</p>
+        <p class="text-smaller">We are generously supported by <a class="credits" target="_blank" href="http://ycombinator.com">Y Combinator</a>, <a class="credits" target="_blank" href="http://teespring.com">TeeSpring</a>, <a class="credits" target="_blank" href="http://twitter.com/paultoo">Paul Buchheit</a>, <a class="credits" target="_blank" href="http://www.continuations.com">Albert Wenger</a>, and the <a class="credits" target="_blank" href="http://shuttleworthfoundation.org">Shuttleworth Foundation</a>.</p>
+      </div>
+      <div class="width-two-thirds">
+      </div>
+    </footer><!-- /end .global-footer -->
 
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
