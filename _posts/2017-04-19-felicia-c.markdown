@@ -2,7 +2,7 @@
 layout: no-image
 title: From Homeless to a House with Running Water
 permalink: /felicia-detroit/
-description: Meet Loria. The first person in Detroit The Human Utility ever helped with a water bill.
+description: Meet Felicia. She went from homeless to a home with running water with the help of The Human Utility.
 byline: By Arthur Bridgeforth Jr.
 ---
 
