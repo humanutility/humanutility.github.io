@@ -1,5 +1,4 @@
 ---
-layout: default
 title: 2 Months Without Water as a Cancer Patient—Larry's Story
 permalink: /larry-detroit/
 caption: Larry in his home in Detroit. Photo by Arthur Bridgeforth, Jr. 2016.
