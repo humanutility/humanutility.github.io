@@ -3,7 +3,7 @@ layout: default
 title: How Baltimore Water Bills Can Leave Families High and Dry—and Homeless
 permalink: /danielle-baltimore/
 caption: Danielle in Baltimore. 2017.
-description:
+description: What happens when a water bill in Baltimore can't be paid?
 profile_img: https://www.dropbox.com/s/g1ulc4y0hfu9fbv/danielle-baltimore.jpeg?dl=1
 byline: By Arthur Bridgeforth Jr.
 ---
