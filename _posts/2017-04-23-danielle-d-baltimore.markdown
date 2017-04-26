@@ -12,7 +12,7 @@ byline: By Arthur Bridgeforth Jr.
 <br />
 <span style="background-color: #ffff00;">Baltimore resident Danielle D. came within a couple weeks of losing her home due to an unpaid $1,600 water bill</span> that had grown too high for her to pay.
 
-That's because in Baltimore, homeowners with a delinquent water bill can lose their home to tax sale. <span style="background-color: #ffff00;">In the past, homeowners have been put out over as little as $362.</span>
+That's because in Baltimore, homeowners with a delinquent water bill can lose their home to tax sale. <span style="background-color: #ffff00;">In the past, homes have been foreclosed and homeowners have been evicted over <a href="https://www.publicintegrity.org/2010/05/18/7082/other-foreclosure-menace" target="_blank">as little as $362</a>.</span>
 
 "I got the letter from the water department saying that if I didn't pay my water bill by April 28th I would lose it to a tax sale," Danielle said. "I was really, really scared and really paranoid. There was no way I could afford to pay $1,600 for my water bill when I owed $1,700 for my mortgage."
 
