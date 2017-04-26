@@ -8,8 +8,6 @@ profile_img: https://www.dropbox.com/s/g1ulc4y0hfu9fbv/danielle-baltimore.jpeg?d
 byline: By Arthur Bridgeforth Jr.
 ---
 
-
-<br />
 <span style="background-color: #ffff00;">Baltimore resident Danielle D. came within a couple weeks of losing her home due to an unpaid $1,600 water bill</span> that had grown too high for her to pay.
 
 That's because in Baltimore, homeowners with a delinquent water bill can lose their home to tax sale. <span style="background-color: #ffff00;">In the past, homes have been foreclosed and homeowners have been evicted over <a href="https://www.publicintegrity.org/2010/05/18/7082/other-foreclosure-menace" target="_blank">as little as $362</a>.</span>
