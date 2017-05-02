@@ -1,6 +1,6 @@
 ---
 layout: default
-title: When Age Discrimination Strikes, Bills Go Unpaid
+title: When Age Discrimination Strikes, Utility Bills Go Unpaid
 permalink: /when-age-discrimination-strikes-bills-go-unpaid/
 caption: Francine in Baltimore. 2017.
 description: What happens when bills can't be paid because of age discrimination?
