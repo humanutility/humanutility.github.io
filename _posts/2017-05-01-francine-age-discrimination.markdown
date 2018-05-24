@@ -6,6 +6,7 @@ caption: Francine in Baltimore. 2017.
 description: What happens when bills can't be paid because of age discrimination?
 profile_img: https://www.dropbox.com/s/vwfbptfgf4zge19/francine-baltimore.jpg?dl=1
 byline: By Arthur Bridgeforth Jr.
+pub_date: May 1, 2017
 ---
 
 Unemployment since 2014 without any job prospects has left Francine T. frustrated and she thinks age discrimination may be why.
