@@ -4,6 +4,7 @@ title: A Veteran and His Family Overcome Water Shutoff with Help from The Human 
 permalink: /veterans-and-water/
 description: That time The Human Utility helped a veteran and his family with their water bill.
 byline: By Arthur Bridgeforth Jr.
+pub_date: July 11, 2017
 ---
 
 Troy M., a 35-year-old quality control inspector, had been toiling at his job and paying his monthly bills without fail until months of guessing by Detroit Water & Sewerage resulted in a massive bill once the utility got around to reading his water meter.
