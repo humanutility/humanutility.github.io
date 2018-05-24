@@ -6,6 +6,7 @@ caption: Danielle in Baltimore. 2017.
 description: What happens when a water bill in Baltimore can't be paid?
 profile_img: https://www.dropbox.com/s/g1ulc4y0hfu9fbv/danielle-baltimore.jpeg?dl=1
 byline: By Arthur Bridgeforth Jr.
+pub_date: April 23, 2017
 ---
 
 <span style="background-color: #ffff00;">Baltimore resident Danielle D. came within a couple weeks of losing her home due to an unpaid $1,600 water bill</span> that had grown too high for her to pay.
