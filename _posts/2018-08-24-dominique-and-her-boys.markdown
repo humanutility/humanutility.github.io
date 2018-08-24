@@ -4,7 +4,7 @@ title: Hope Beats Hardship
 permalink: /dominique-and-her-boys/
 description: Larry, a GM retiree in Detroit, went two months without running water before he found The Human Utility
 profile_img: https://www.dropbox.com/s/1f992bwaa9zr9b0/dominique.jpeg?dl=1
-byline: By Arthur Bridgeforth Jr
+byline: By Arthur Bridgeforth, Jr. and Pamela Waxman
 pub_date: August 24, 2018
 ---
 
