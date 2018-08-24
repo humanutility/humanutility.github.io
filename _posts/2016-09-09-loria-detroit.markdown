@@ -6,6 +6,7 @@ caption: Loria in Detroit. 2015.
 description: Meet Loria. The first person in Detroit The Human Utility ever helped with a water bill.
 profile_img: https://www.dropbox.com/s/k2i3ivenw1uobxi/loria.jpeg?dl=1
 byline: By Arthur Bridgeforth Jr.
+pub_date: September 9, 2016
 ---
 
 

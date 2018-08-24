@@ -6,6 +6,7 @@ caption: Aaron with his son. 2016.
 description: Meet Loria. The first person in Detroit The Human Utility ever helped with a water bill.
 profile_img: https://www.dropbox.com/s/6smpidrdnhop9b8/aaron-detroit.jpg?dl=1
 byline: By Arthur Bridgeforth Jr.
+pub_date: September 18, 2016
 ---
 
 
