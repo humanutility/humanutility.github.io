@@ -2,19 +2,21 @@
 layout: default
 ---
 
-<article>
-  <header>
-    <a class="picture" href="{{ page.url }}">
-      <img src="{{ page.image }}">
-    </a>
-    <h1><a href="{{ page.url }}">{{ page.title }}<br></a></h1>
-    <p>
-      <span>{{ page.date | date: "%B %e, %Y" }}</span>
-    </p>
-  </header>
+<div class="col-md-12">
+  <article>
+    <header>
+      <a class="picture" href="{{ page.url }}">
+        <img class="img-fluid" src="{{ page.image }}">
+      </a>
+      <h1><a href="{{ page.url }}">{{ page.title }}<br></a></h1>
+      <p>
+        <span>{{ page.date | date: "%B %e, %Y" }}</span>
+      </p>
+    </header>
 
-  <div class="content">
-    <p>{{ content }}<p>
-  </div>
+    <div class="content">
+      <p>{{ content }}<p>
+    </div>
 
-</article>
+  </article>
+</div>

@@ -15,6 +15,8 @@ On July 18, 2016, a Detroit Water and Sewerage Department truck pulled up in fro
 
 Larry's rental agreement for the house he is renting-to-own was supposed to include all his utilities. Unfortunately, he found out too late that it didn’t include his water.
 
+<img src="{{ page.profile_img }}" class="img-fluid">
+
 A week before shutoff, Larry was mailed an outstanding water bill. A day after the letter arrived, Larry went to the Detroit Water and Sewerage office to make arrangements on the bill. But, he was told the entire balance of $246 was due or his service would be shut-off.
 
 Larry, a 62-year-old retiree from GM's accounting and payroll department who also has cancer, didn't have the money to pay the balance.
